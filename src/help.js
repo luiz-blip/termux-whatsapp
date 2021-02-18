@@ -1,8 +1,8 @@
 const help = (prefix) => {
 	return `
-「 *BOT TRADUZIDO POR BARDOKILL* 」
+「 *BOT TRADUZIDO POR LUIZITO 🛠️🙌* 」
 
-◪ *INFO*
+◪ *[ INFO ]*
   ❏ Prefixo: 「  ${prefix}  」
   ❏ Criador: BARDOKILL
 ◪ *SOBRE* 
@@ -10,11 +10,11 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}instagram : OFF
 
   ├─ ❏ ${prefix}blocklist
-  ├─ ❏ ${prefix}grupo whatsapp : https://chat.whatsapp.com/JS5t7sEOml6EYWx9D0QuKp
+  ├─ ❏ ${prefix}grupo whatsapp : OFF
   ├─ ❏ ${prefix} numero whatsapp wa.me/5544997346216
   └─ ❏ ${prefix}telegram : OFF
 
-◪ *MÍDIA* 
+◪ *[ MIDIA 🌍 ]* 
   │
   ├─ ❏ ${prefix}sticker        ☆  converter imagem em figurinhas
 
@@ -44,13 +44,13 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}pubglogo
   └─ ❏ ${prefix}quotemaker
 
-◪ *MEIOS DE COMUNICAÇÃO*
+◪ *[ MEIOS DE COMUNICAÇÃO 🗣️ ]*
   │
   ├─ ❏ ${prefix}trendtwit
   ├─ ❏ ${prefix}randomkpop
   └─ ❏ ${prefix}ytsearch    ☆ procurar videos no youtube 
   
-◪ *EDUCAÇÃO*
+◪ *[ EDUCAÇÃO ✍️ ]*
   │
   ├─ ❏ ${prefix}wiki
   ├─ ❏ ${prefix}wikien
@@ -59,26 +59,26 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}quotes2
   └─ ❏ ${prefix}artinama
 
-◪ *MAGIC SHELL*
+◪ *[ CONCHA MÁGICA 🐚 ]*
   │
   ├─ ❏ ${prefix}apakah
   ├─ ❏ ${prefix}kapankah
   ├─ ❏ ${prefix}rate
   └─ ❏ ${prefix}bisakah
 
-◪ *DOWNLOADS*
+◪ *[ DOWNLOADS 📥 ]*
 
   ├─ ❏ ${prefix}pinterest
   ├─ ❏ ${prefix}ytmp4 😳 baixa videos youTube
   ├─ ❏ ${prefix}tiktok
   └─ ❏ ${prefix}joox
 
-◪ *MEME*
+◪ *[ MEME 👻 ]*
   │
   ├─ ❏ ${prefix}meme
   └─ ❏ ${prefix}memeindo
 
-◪ *GRUPO*
+◪ *[ GRUPO 👥 ]*
   │
   ├─ ❏ ${prefix}opengc
   ├─ ❏ ${prefix}closegc
@@ -101,11 +101,11 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}delete
   └─ ❏ ${prefix}ownergroup
           ${prefix}criador
-◪ *SONS*
+◪ *[ SONS 🎧 ]*
   │
   ├─ ❏ ${prefix}play  .play comando prs baixa musica 😳 .play mais nome da musica
   └─ ❏ ${prefix}tts
-◪ *MUSICA*
+◪ *[ MUSICA 🎵 ]*
   │
   ├─ ❏ ${prefix}lirik
   └─ ❏ ${prefix}chord
@@ -113,12 +113,12 @@ const help = (prefix) => {
   │
   └─ ❏ ${prefix}quran
 
-◪ *STALK*
+◪ *[ STALK 👀 ]*
   │
   ├─ ❏ ${prefix}tiktokstalk
   └─ ❏ ${prefix}igstalk
 
-◪ *ANIME*
+◪ *[ ANIME 🉐 ]*
   │
   ├─ ❏ ${prefix}neonime
   ├─ ❏ ${prefix}pokemon
@@ -130,13 +130,13 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}wait
   └─ ❏ ${prefix}nekonime
 
-◪ *18+*  pornô anime
+◪ *[ CONTEUDO +18 🔞 ]*  pornô anime
   |
   ├─ ❏ ${prefix}randomhentai  ☆ porno hentai
   ├─ ❏ ${prefix}nsfwtrap           ☆ erro
   └─ ❏ ${prefix}nsfwneko         ☆ porno neko
 
-◪ *DIVERSÃO*
+◪ *[ DIVERSÃO 🎮 ]*
   │
   ├─ ❏ ${prefix}alay
   ├─ ❏ ${prefix}gantengcek
@@ -148,7 +148,7 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}dare
   └─ ❏ ${prefix}simi
 
-◪ *INFORMAÇÕES*
+◪ *[ INFORMAÇÕES 📄 ]*
   │
   ├─ ❏ ${prefix}bahasa  ☆ lista dos codigos dos paises
   ├─ ❏ ${prefix}kodenegara ☆ lista de todos paises do mundo 
@@ -159,7 +159,7 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}jadwaltvnow
   └─ ❏ ${prefix}covid
 
-◪ *SOMENTE DONO DO BOT*
+◪ *[ SOMENTE DONO DO BOT 🔒 ]*
   │
   ├─ ❏ ${prefix}setprefix
   ├─ ❏ ${prefix}block
@@ -168,7 +168,7 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}clone    ☆ o bot usara a foto dd perfil do contato marcado 
   └─ ❏ ${prefix}clearall ☆ limpar o chat 
   
-◪ *OUTROS*
+◪ *[ OUTROS 📁 ]*
   │
   ├─ ❏ ${prefix}send      ☆ SPAM 
   ├─ ❏ ${prefix}wame    ☆  pegar o link do teu NUMERO
@@ -180,7 +180,7 @@ const help = (prefix) => {
   ├─ ❏ ${prefix}fml
   └─ ❏ ${prefix}fml2
 
-◪ *🇧🇼BARDOKILL🇧🇼*
+◪ *🛠️LUIZITO🙌*
 `
 }
 

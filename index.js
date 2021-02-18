@@ -243,7 +243,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ processando, aguarde🛠️',
+				wait: ' só um minuto ⏳...️️',
 				success: '✔️ Sucesso ✔️',
                                 levelon: '❬ ✔ ❭ *permitir o nivelamento*', 
 				leveloff: ' ❬ X ❭  *desabilitar nivelamento*',
@@ -254,12 +254,12 @@ async function starts() {
 					Iv: '❌ Link invalido ❌'
 				},
 				only: {
-					group: '[❗] Comando pode ser usado apenas nos grupos! ❌',
-					ownerG: '[❗] Este comando só pode ser usado pelo grupo proprietário! ❌',
-					ownerB: '[❗] Este comando só pode ser usado pelo proprietário do bot! ❌',
-					admin: '[❗]KKK MEMBRO COMUM TENTANDO USAR COMANDO DE ADEMAR🤡🇧🇼',
-					Badmin: '[❗] O BOT PRECISA SER ADEMAR DO GRUPO PORA❌',
-                                        daftarB: `──「 Registre-se 」──\nOla mano !\nVoce não está registrado no banco de dados, \n\nComando : ${prefix}daftar nama|umur\nDigite : .daftar nama|Bardokill ${prefix}`,
+					group: ' Comando permitido apenas em grupos 👥',
+					ownerG: ' Comando permitido apenas para o dono 🔒',
+					ownerB: ' Comando permitido apenas para o dono 🔒',
+					admin: ' Comando permitido apenas para administradores do grupo 🔒',
+					Badmin: ' Bot precisa ter acesso ao administrador 🛠️',
+                                        daftarB: `──「 Registre-se 」──\nOla pow !\nVoce não está registrado no banco de dados, \n\nComando : ${prefix}luiz name|umur\nDigite : .luiz name|Boy ${prefix}`,
 				}
 			}
     			const apakah = ['Sim não']
