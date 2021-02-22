@@ -205,7 +205,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Adeus, @${num.split('@')[0]} você não vai fazer falta aqui ghost fdp🤬👋`
+				teks = `Adeus, @${num.split('@')[0]} Adeus pessoinha, até logo....ou nunca 🤭🙌`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -243,7 +243,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: ' só um minuto ⏳...️️',
+				wait: ' só um minuto⏳...️️',
 				success: '✔️ Sucesso ✔️',
                                 levelon: '❬ ✔ ❭ *permitir o nivelamento*', 
 				leveloff: ' ❬ X ❭  *desabilitar nivelamento*',
@@ -259,7 +259,7 @@ async function starts() {
 					ownerB: ' Comando permitido apenas para o dono 🔒',
 					admin: ' Comando permitido apenas para administradores do grupo 🔒',
 					Badmin: ' Bot precisa ter acesso ao administrador 🛠️',
-                                        daftarB: `──「 Registre-se 」──\nOla pow !\nVoce não está registrado no banco de dados, \n\nComando : ${prefix}luiz name|umur\nDigite : .luiz name|Boy ${prefix}`,
+                                        daftarB: `──「 Registre-se 」──\nOla pow !\nVoce não está registrado no banco de dados, \n\nComando : ${prefix}entrar name|umur\nDigite : .entrar nome|idade ${prefix}`,
 				}
 			}
     			const apakah = ['Sim não']
@@ -368,7 +368,7 @@ case 'timer':
 					if (mentioned.length > 1) {
 						teks = ''
 						for (let _ of mentioned) {
-							teks += `Comando recebido, administrador de grupo rebaixado para membro comum🐒 :\n`
+							teks += `Comando recebido, administrador de grupo rebaixado para membro comum👁️👄👁️ :\n`
 							teks += `@_.split('@')[0]`
 						}
 						mentions(teks, mentioned, true)
@@ -403,7 +403,7 @@ case 'timer':
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag target yang ingin di promote!')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = 'Removido com sucesso, Vaza Daqui fi duma égua🐒 :\n'
+						teks = 'Removido com exito, até nunca pow 😂👋 :\n'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
@@ -446,8 +446,8 @@ case 'timer':
                 break
               case 'owner':
                 case 'criador':
-                  client.sendMessage(from, {displayname: "Bardokill", vcaurd: vcaurd}, MessageType.contact, { quoted: mek})
-               client.sendMessage(from, 'Aqui esta o numero do meu dono, salva ai depois ^^',MessageType.text, { quoted: mek} )
+                  client.sendMessage(from, {displayname: "Joy boy", vcaurd: vcaurd}, MessageType.contact, { quoted: mek})
+               client.sendMessage(from, 'Aqui esta o numero do meu dono, salva ai depois :D',MessageType.text, { quoted: mek} )
                 break
 	case 'hidetag':
                 client.updatePresence(from, Presence.composing) 
@@ -1300,13 +1300,13 @@ case 'timer':
                                   case 'daftar':
 					client.updatePresence(from, Presence.composing)
 					if (isUser) return reply('voce ja esta registrado')
-					if (args.length < 1) return reply(`Parametro Errado\nComando : ${prefix}daftar nome | idade\nExemplos : ${prefix}daftar Caliph|12`)
+					if (args.length < 1) return reply(`Parametro Errado\nComando : ${prefix}entrar nome | idade\nExemplos : ${prefix}entrar Caliph|12`)
 					var reg = body.slice(8)
 					var jeneng = reg.split("|")[0];
 					var umure = reg.split("|")[1];
 						user.push(sender)
 						fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
-						client.sendMessage(from, `\`\`\`O  LISTA  foi bem sucedido com SN: TM08GK8PPHBSJDH10J\`\`\`\n\n\`\`\`Em ${date} ${time}\`\`\`\n\`\`\`[Nome]: ${jeneng}\`\`\`\n\`\`\`[Numero]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`[Era]: ${umure}\`\`\`\n\`\`\`Para usar um bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}help\`\`\`\n\`\`\`\nTotal de usu�rios ${user.length}\`\`\``, text, {quoted: mek})
+						client.sendMessage(from, `\`\`\`O  LISTA  foi bem sucedido com SN: TM08GK8PPHBSJDH10J\`\`\`\n\n\`\`\`Em ${date} ${time}\`\`\`\n\`\`\`[Nome]: ${jeneng}\`\`\`\n\`\`\`[Numero]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`[idade]: ${umure}\`\`\`\n\`\`\`Para usar um bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}help\`\`\`\n\`\`\`\nTotal de usu�rios ${user.length}\`\`\``, text, {quoted: mek})
 					break
                                 case 'welcome':
 					if (!isGroup) return reply(mess.only.group)
